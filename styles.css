@@ -1,0 +1,48 @@
+
+        html {
+        scroll-behavior: smooth;
+        }
+        .blur-background {
+        position: relative;
+        background-image: url('bg.jpg');
+        background-size: cover;
+        }
+
+        .blur-effect {
+        backdrop-filter: blur(20px) saturate(180%);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
+        background-color: rgba(17, 25, 40, 0.592);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        }
+
+        .content {
+        position: relative; 
+        z-index: 1; 
+        padding: 20px;
+        color: rgb(255, 255, 255);
+        }
+        
+        
+
+        i:hover{
+            color:rgb(255, 255, 255);
+            
+        }
+        .overflow-auto::-webkit-scrollbar {
+            display: none;
+        }
+
+        
+        .overflow-auto {
+            -ms-overflow-style: none;  
+            scrollbar-width: none;  
+        }
+        i,h4,h1,h2 {
+        color:  #ffdd00;
+        
+        }
+        body{
+        background-image: url('images/bg.jpg');background-repeat: no-repeat; background-attachment: fixed;background-size: cover; ;
+        background-color:#222831;
+        }
